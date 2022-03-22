@@ -21,7 +21,7 @@ export const ProductProvider =(props)=>{
 
     useEffect(()=>{
         getFetchData({ headers,setProductsData},url);
-    });
+    },[]);
 
     return(
         <ProductContext.Provider value={[productsData, setProductsData]}>

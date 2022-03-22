@@ -1,4 +1,4 @@
- export const getFetchData = async (url,{ headers ,setProductsData}) => {
+ export const getFetchData = async ({ headers ,setProductsData},url) => {
 	try {
 		const result = await fetch(url, { headers });
 		const products = await result.json();
