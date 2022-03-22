@@ -1,10 +1,10 @@
 import React, {useContext, useEffect, useState} from "react";
-import { productContext } from "../../context/productContext";
+import { ProductContext } from "../../context/productContext";
 import Item from "../item/item/item";
 
 export default function Feed (){
   
-    const [productsData]=useContext(productContext);
+    const [productsData]=useContext(ProductContext);
     const [products,setProducts]=useState([]);
 
     useEffect(()=>{
@@ -14,7 +14,7 @@ export default function Feed (){
 
     return(
         <div >
-           {products.currentData().map((product) => (
+           {products.map((product) => (
 					<Item {...product} key={product._id} />
 				))}
          </div>
