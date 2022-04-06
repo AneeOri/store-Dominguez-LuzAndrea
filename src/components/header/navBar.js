@@ -1,4 +1,4 @@
-import React,{useContext, UserContext} from 'react';
+import React,{useContext} from 'react';
 import { UserContext } from '../../context/userContext';
 import coin from '../../assets/icons/coin.svg'
 

@@ -9,3 +9,15 @@
 		console.log('error', error);
 	}
 };
+
+export const getFetchUser = async ({ headers ,setUserData},url) => {
+	try {
+		const result = await fetch(url, { headers });
+		const user = await result.json();
+		setUserData(user);
+        console.log("data fetched:", user);
+        //return list;
+	} catch (error) {
+		console.log('error', error);
+	}
+};
