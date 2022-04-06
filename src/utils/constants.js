@@ -3,7 +3,8 @@ export const API_KEY =
   "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MTExOGYxM2Q5ZmMzODAwMjFmNjM4NDUiLCJpYXQiOjE2Mjg1NDA2OTJ9.PA0rEWI4gDP8xHFtuty2J7uJW1yCTVcnDqWyDw8UVZQ";
 
 export const RESOURCES = {
-  PRODUCTS: "/products"
+  PRODUCTS: "/products",
+  USER:"/user/me"
   //SEARCH: "/search"
 };
 
