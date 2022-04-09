@@ -14,7 +14,7 @@ export default function CategoryFilter(){
     return (
       <div>
          <div>Filter by Category</div>
-         <select value={genero} onChange={onChangeGenero}>
+         <select value={filter.category} onChange={onChangeCategory}>
            <option>All</option>  
            {category.map((category) => (
                 <option key={category} value={category.toLowerCase()}>{category}</option>
