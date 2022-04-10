@@ -11,10 +11,19 @@ export default function CategoryFilter(){
         ...new Set(productData.map((product)=> product.category))
     ].sort();
 
+    function onChangeCategory(e){
+        let {name,value} = e.target;
+        const options= {...filter,[name]:value.toLowerCase()};
+        setFilter(options);
+    }
+
     return (
       <div>
          <div>Filter by Category</div>
-         <select value={filter.category} onChange={onChangeCategory}>
+         <select name="category"
+                value={filter.category} 
+                 onChange={onChangeCategory}
+         >
            <option>All</option>  
            {category.map((category) => (
                 <option key={category} value={category.toLowerCase()}>{category}</option>
