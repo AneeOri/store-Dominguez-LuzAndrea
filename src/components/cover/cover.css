@@ -6,8 +6,7 @@
 
 .coverImage{
     width: 100vw;
-    height: 30%;
+    height: 35vw;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
