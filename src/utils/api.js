@@ -21,3 +21,14 @@ export const getFetchUser = async ({ headers ,setUserData},url) => {
 		console.log('error', error);
 	}
 };
+
+export const getHistory = async ({headers,setHistoryData}, url)=>{
+	try{
+		const result = await fetch(url, { headers });
+		const history = await result.json();
+		setHistoryData(history);
+        console.log("data fetched:", history);
+	}catch(error){
+		console.log('error',error);
+	}
+}
