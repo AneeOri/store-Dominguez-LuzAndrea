@@ -4,6 +4,7 @@ import { UserProvider } from "./context/userContext";
 import { FilterProvider } from "./context/filterContext";
 import Feed from "./components/feed/feed";
 import Header from "./components/header/header";
+import Cover from "./components/cover/cover";
 
 export default function App() {
 
@@ -13,6 +14,7 @@ export default function App() {
          <FilterProvider>
             <div>
               <Header/>
+              <Cover/>
               <Feed/>
              </div>
           </FilterProvider>   
