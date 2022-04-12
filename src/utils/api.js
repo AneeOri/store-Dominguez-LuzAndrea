@@ -32,3 +32,25 @@ export const getHistory = async ({headers,setHistoryData}, url)=>{
 		console.log('error',error);
 	}
 }
+
+export const postPoints = async({amount,headers, userData, setUserData},url) => {
+	try{
+		let raw = JSON.stringify({amount: amount});
+
+		const requestOptions ={
+			method: 'POST',
+			body: raw,
+			headers: headers
+		}
+
+         const response =await fetch(url,requestOptions);
+		 const newPoints = await response.json();
+
+		 const newPointsUser = {...userData};
+		 newPointsUser.points = newPoints['New Points'];
+		 setUserData(newPointsUser);
+		 console.log("data fetched:", newPointsUser);
+	}catch(error){
+		console.log('error',error);
+	}
+}

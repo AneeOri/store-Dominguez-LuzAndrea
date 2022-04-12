@@ -5,8 +5,8 @@ export const API_KEY =
 export const RESOURCES = {
   PRODUCTS: "/products",
   USER:"/user/me",
-  HISTORY:"/user/history"
-  //SEARCH: "/search"
+  HISTORY:"/user/history",
+  POINTS:"/user/points"
 };
 
 export const headers = {
