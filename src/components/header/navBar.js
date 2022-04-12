@@ -10,8 +10,10 @@ export default function NavBar (){
     return(
         <div>
           <p>{userData.name}</p>
-          <img src={coin} alt="imagen de moneda" />
-          <p>{userData.points}</p>
+             <div>
+             <p >{userData.points}</p>
+             <img src={coin} alt="imagen de moneda" />
+             </div>   
           <nav>
              <ul >
                <Link to="/points">
