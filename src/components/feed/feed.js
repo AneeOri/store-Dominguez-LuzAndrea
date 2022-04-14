@@ -70,6 +70,9 @@ export default function Feed (){
               <CategoryFilter/>
               <PricesFilter/>
             </div>
+            <div className="products">
+                  {displayProducts}
+            </div>
             <div className="paginator">
                <ReactPaginate
                   breakLabel="..."
@@ -78,9 +81,6 @@ export default function Feed (){
                   pageCount={count}
                   previousLabel="< previous"
                />
-            </div>
-            <div className="products">
-                  {displayProducts}
             </div>
         </div>
     );

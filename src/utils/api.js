@@ -22,7 +22,7 @@ export const getFetchUser = async ({ headers ,setUserData},url) => {
 	}
 };
 
-export const getHistory = async ({headers,setHistoryData}, url)=>{
+export const getHistory = async ({headers,setHistoryData}, url) => {
 	try{
 		const result = await fetch(url, { headers });
 		const history = await result.json();
@@ -30,6 +30,24 @@ export const getHistory = async ({headers,setHistoryData}, url)=>{
         console.log("data fetched:", history);
 	}catch(error){
 		console.log('error',error);
+	}
+}
+export const postReedem = async ({productId,headers},url) => {
+   try{
+      let raw = JSON.stringify({productId: productId});
+      
+      const requestOptions ={
+		method: 'POST',
+		body: raw,
+		headers: headers
+	}
+
+	     await fetch(url,requestOptions);
+		 return true;
+
+   }catch(error){
+		console.log('error',error);
+		return false;
 	}
 }
 

@@ -6,7 +6,8 @@ export const RESOURCES = {
   PRODUCTS: "/products",
   USER:"/user/me",
   HISTORY:"/user/history",
-  POINTS:"/user/points"
+  POINTS:"/user/points",
+  REDEEM:"/redeem"
 };
 
 export const headers = {

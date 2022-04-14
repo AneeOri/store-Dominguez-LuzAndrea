@@ -6,7 +6,7 @@ export default function Item (props) {
     const { img, category, name, cost} = props;
 
     return(
-        <div className="item">
+        <div className="item" >
             <img src={img.url} alt="Imagen ilustrativa del producto" />
             <div>
               <h3>{category}</h3>

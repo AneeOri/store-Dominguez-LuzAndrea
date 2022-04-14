@@ -4,12 +4,14 @@
     box-sizing: border-box;
 }
 .products{
+    margin-top: 3vw;
     display: flex;
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
 }
 .filters{
+    margin-top: 2vw;
     margin-left: 10vw;
     display: flex;
     justify-content: flex-start;
