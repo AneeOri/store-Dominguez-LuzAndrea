@@ -5,6 +5,7 @@ import Item from "../item/item/item";
 import CategoryFilter from "../filter/categoryFilter";
 import PricesFilter from "../filter/pricesFilter";
 import ReactPaginate from "react-paginate";
+import "./feed.css";
 
 export default function Feed (){
   
@@ -78,7 +79,9 @@ export default function Feed (){
                   previousLabel="< previous"
                />
             </div>
-              {displayProducts}
+            <div className="products">
+                  {displayProducts}
+            </div>
         </div>
     );
 }

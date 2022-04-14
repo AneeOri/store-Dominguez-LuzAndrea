@@ -1,16 +1,18 @@
 import React from "react";
+import "./item.css";
 
 export default function Item (props) {
 
-    const { img, category, name, cost, _id } = props;
+    const { img, category, name, cost} = props;
 
     return(
-        <div height="100px" width="100px">
+        <div className="item">
             <img src={img.url} alt="Imagen ilustrativa del producto" />
-            <h3>{category}</h3>
-            <h3>{name}</h3>
-            <h3>{cost}</h3>
-            <h3>{_id}</h3>
+            <div>
+              <h3>{category}</h3>
+              <h3>{name}</h3>
+              <h3>{cost}</h3>
+            </div>
          </div>
     );
 }
