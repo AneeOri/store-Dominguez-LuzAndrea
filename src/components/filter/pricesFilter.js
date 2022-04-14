@@ -14,7 +14,8 @@ export default function PricesFilter(){
     return (
         <div>
         <div>Filter by Price</div>
-        <select name="price"
+        <select className="select"
+                name="price"
                 value={filter.price} 
                 onChange={onChangePrices}
         >

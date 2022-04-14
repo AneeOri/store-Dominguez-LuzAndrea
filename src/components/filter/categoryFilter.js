@@ -1,6 +1,7 @@
 import React , { useContext} from 'react';
 import { FilterContext } from '../../context/filterContext';
 import { ProductContext } from '../../context/productContext';
+import "./filters.css";
 
 export default function CategoryFilter(){
 
@@ -20,8 +21,9 @@ export default function CategoryFilter(){
     return (
       <div>
          <div>Filter by Category</div>
-         <select name="category"
-                value={filter.category} 
+         <select className="select"
+                 name="category"
+                 value={filter.category} 
                  onChange={onChangeCategory}
          >
            <option>All</option>  
