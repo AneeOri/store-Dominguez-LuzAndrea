@@ -9,3 +9,14 @@
     flex-direction: row;
     flex-wrap: wrap;
 }
+.filters{
+    margin-left: 10vw;
+    display: flex;
+    justify-content: flex-start;
+
+}
+.paginator{
+    margin-right: 10vw;
+    display: flex;
+    justify-content: flex-end; 
+}

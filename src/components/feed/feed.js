@@ -66,11 +66,11 @@ export default function Feed (){
 
     return(
         <div>
-            <div>
+            <div className="filters">
               <CategoryFilter/>
               <PricesFilter/>
             </div>
-            <div>
+            <div className="paginator">
                <ReactPaginate
                   breakLabel="..."
                   nextLabel="next >"
