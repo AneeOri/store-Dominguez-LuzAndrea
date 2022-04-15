@@ -32,9 +32,9 @@ export const getHistory = async ({headers,setHistoryData}, url) => {
 		console.log('error',error);
 	}
 }
-export const postReedem = async ({productId,headers},url) => {
+export const postReedem = async ({id,headers},url) => {
    try{
-      let raw = JSON.stringify({productId: productId});
+      let raw = JSON.stringify({productId: id});
       
       const requestOptions ={
 		method: 'POST',
