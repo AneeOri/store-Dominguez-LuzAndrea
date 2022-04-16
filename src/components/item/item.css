@@ -18,3 +18,7 @@
 .item img{
     align-self: center;
 }
+.divInfo{
+    display: flex;
+    flex-direction: row;
+}

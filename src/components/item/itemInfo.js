@@ -2,6 +2,7 @@ import React from 'react';
 import coin from "../../assets/icons/coin.svg";
 import buyBlue from "../../assets/icons/buy-blue.svg";
 import buyWhite from "../../assets/icons/buy-white.svg";
+import "./item.css";
 
 export default function ItemInfo(props){
  
@@ -10,7 +11,7 @@ export default function ItemInfo(props){
    function setInfo(userPoints,productCost){
     if(productCost > userPoints){
         return(
-            <div>
+            <div className="divInfo">
                 <p> You need {productCost - userPoints}</p>
                 <img src={coin} alt="imagen de moneda" />
             </div>

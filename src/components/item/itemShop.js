@@ -8,7 +8,7 @@ export default function ItemShop (props) {
 
     return(
         <div>
-             <button
+             <button 
                 onClick={() => {
                     setClick(true);
                    redeemItem(productId,productCost,userPoints);

@@ -1,8 +1,8 @@
 import React,{useState, useContext}from "react";
 import "./item.css";
-import { UserContext } from "../../../context/userContext";
+import {UserContext} from "../../context/userContext";
 import ItemHover from "./itemHover";
-import ItemInfo from "../itemInfo";
+import ItemInfo from "./itemInfo";
 
 
 export default function Item (props) {

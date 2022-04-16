@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
-import { postReedem } from '../../../utils/api';
-import coin from "../../../assets/icons/coin.svg";
-import { API_URL, RESOURCES, headers } from "../../../utils/constants";
+import { postReedem } from '../../utils/api';
+import coin from "../../assets/icons/coin.svg";
+import { API_URL, RESOURCES, headers } from "../../utils/constants";
 import ItemShop from './itemShop';
 
 export default function ItemHover (props) {

@@ -1,7 +1,7 @@
 import React, {useContext, useEffect, useState} from "react";
 import { ProductContext } from "../../context/productContext";
 import { FilterContext } from "../../context/filterContext";
-import Item from "../item/item/item";
+import Item from "../item/item";
 import CategoryFilter from "../filter/categoryFilter";
 import PricesFilter from "../filter/pricesFilter";
 import ReactPaginate from "react-paginate";
