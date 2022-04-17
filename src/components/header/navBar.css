@@ -1,0 +1,29 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-right: 10px;
+}
+.points{
+    display: flex;
+    flex-direction: row;
+    margin-right: 5vw;
+}
+.name{
+    display: flex;
+    flex-direction: row;
+    margin-left: 1vw;
+    justify-content: space-around;
+}
+.links{
+    display: flex;
+    flex-direction: row;
+}
+.links li{
+    margin-right: 1vw;
+}
