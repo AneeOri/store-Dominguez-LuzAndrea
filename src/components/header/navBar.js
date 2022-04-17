@@ -14,7 +14,7 @@ export default function NavBar (){
                   <p>{userData.name}</p>
                   <div className='name'>
                      <p >{userData.points}</p>
-                     <img src={coin} alt="imagen de moneda" />
+                     <img className="coin" src={coin} alt="imagen de moneda" />
                   </div>
              </div>  
              <div >

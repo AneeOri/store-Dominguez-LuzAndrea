@@ -3,6 +3,7 @@ import coin from "../../assets/icons/coin.svg";
 import buyBlue from "../../assets/icons/buy-blue.svg";
 import buyWhite from "../../assets/icons/buy-white.svg";
 import "./item.css";
+import "./itemInfo.css";
 
 export default function ItemInfo(props){
  
@@ -19,7 +20,7 @@ export default function ItemInfo(props){
     }else{
             const buy = isHover ? buyWhite : buyBlue;
             return(
-                <div>
+                <div className='bag'>
                     <img src={buy} alt="imagen de bolsa de compra" />
                 </div>
             );

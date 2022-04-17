@@ -1,0 +1,7 @@
+.bag{
+    position: relative;
+}
+.bag img{
+    position: absolute;
+    margin-left: 6vw;
+}

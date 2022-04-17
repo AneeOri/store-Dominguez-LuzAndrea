@@ -8,17 +8,25 @@
     flex-direction: row;
     justify-content: space-around;
     margin-right: 10px;
+    margin-top: .5vw;
+    margin-bottom: .5vw;
 }
 .points{
     display: flex;
     flex-direction: row;
     margin-right: 5vw;
 }
+.points p{
+    margin-top: 5px;
+}
 .name{
     display: flex;
     flex-direction: row;
     margin-left: 1vw;
-    justify-content: space-around;
+    background-color: rgb(222, 216, 216);
+}
+.name p{
+    margin-top: 5px;
 }
 .links{
     display: flex;
@@ -26,4 +34,8 @@
 }
 .links li{
     margin-right: 1vw;
+    margin-top: 5px;
+}
+.coin{
+    margin-left: 5px;
 }

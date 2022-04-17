@@ -9,4 +9,12 @@
     height: 35vw;
     display: flex;
     justify-content: center;
+    position: relative;
+}
+.coverImage h1{
+    position: absolute;
+    top:2vw;
+    left:2vw;
+    color: rgb(74, 8, 80);
+    font-size: 3vw;
 }

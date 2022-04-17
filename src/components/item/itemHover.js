@@ -3,6 +3,7 @@ import { postReedem } from '../../utils/api';
 import coin from "../../assets/icons/coin.svg";
 import { API_URL, RESOURCES, headers } from "../../utils/constants";
 import ItemShop from './itemShop';
+import "./itemHover.css";
 
 export default function ItemHover (props) {
     
@@ -21,11 +22,11 @@ export default function ItemHover (props) {
     return (
         <div>
             <div>
+               <img src={coin} alt="imagen de moneda" />
                 <p>{productCost}</p>
-                <img src={coin} alt="imagen de moneda" />
             </div>
             {userPoints >= productCost && (
-                <div>
+                <div className='shop'>
                     <ItemShop
                       redeemItem = {redeemItem}
                       userPoints = {userPoints}
