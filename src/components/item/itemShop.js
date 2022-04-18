@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import Modal from './itemModal';
+import "./itemHover.css";
 
 export default function ItemShop (props) {
 
@@ -9,6 +10,7 @@ export default function ItemShop (props) {
     return(
         <div>
              <button 
+               className='shopButton'
                 onClick={() => {
                     setClick(true);
                    redeemItem(productId,productCost,userPoints);
