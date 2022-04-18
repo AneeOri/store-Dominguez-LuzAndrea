@@ -17,27 +17,32 @@ export default function Item (props) {
             onMouseEnter={() => setHover(true)}
             onMouseLeave={() => setHover(false)}
         >
+          <div className="figura">
+              <div className="imagen">
+                 <ItemInfo
+                    productCost={cost}
+                    userPoints={points}
+                    isHover = {hover}
+                 />
 
-        { hover && (
-            <ItemHover
-               userData={userData}
-               setUserData={setUserData}
-               userPoints={points}
-               productCost={cost}
-               productId={_id}
-            />
-        )}
-          <ItemInfo
-               productCost={cost}
-               userPoints={points}
-               isHover = {hover}
-          />
-
-            <img src={img.url} alt="Imagen ilustrativa del producto" />
-            <div>
-              <h3>{category}</h3>
-              <h3>{name}</h3>
+                 <img src={img.url} alt="Imagen ilustrativa del producto" />
+                 <h3>{category}</h3>
+                 <h3>{name}</h3>
+             </div>
+             <div className="capa">
+              { hover && (
+                <div >
+                 <ItemHover
+                   userData={userData}
+                   setUserData={setUserData}
+                   userPoints={points}
+                   productCost={cost}
+                   productId={_id}
+                  />
+              </div> 
+              )}
             </div>
-         </div>
+          </div>
+        </div>
     );
 }
