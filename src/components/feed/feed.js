@@ -80,6 +80,11 @@ export default function Feed (){
                   onPageChange={changePage}
                   pageCount={count}
                   previousLabel="< previous"
+                  containerClassName={"paginationBtns"}
+                  previousClassName={"previousBtn"}
+                  nextLinkClassName={"nextBtn"}
+                  disabledClassName={"paginationDis"}
+                  activeClassName={"paginationActive"}
                />
             </div>
         </div>
