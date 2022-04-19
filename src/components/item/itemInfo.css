@@ -5,3 +5,18 @@
     position: absolute;
     margin-left: 6vw;
 }
+.divInfo{
+    display: flex;
+    flex-direction: row;
+    background-color: #818282db;
+    border-radius: .3vw;
+}
+.divInfo img{
+    margin-left: .5vw;
+}
+.divInfo p{
+    font-size: 1vw;
+    margin-top: .2vw;
+    margin-left: .5vw;
+    color:rgb(241, 246, 242);
+}

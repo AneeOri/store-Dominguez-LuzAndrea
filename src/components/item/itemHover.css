@@ -4,14 +4,18 @@
 	box-sizing: border-box;
 }
 .hoverCoins{
-	height: 12vw;
-	margin-top: 3vw;
+	height: 10vw;
+	margin-top: 1vw;
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
 	color: rgb(241, 241, 244);
 	font-size: 2.5vw;
+}
+.hoverCoins img{
+	width: 3vw;
+	margin-top: .4vw;
 }
 .shopButton{
 	background-color: transparent;
@@ -23,9 +27,9 @@
     background-size: 300%;
     background-position: 100%;
     transition: all 0.5s ease;
-	margin-top: 2vw;
 	color: rgb(23, 28, 28);
 	font-size: 1vw;
+	margin-bottom: 6wv;
 }
 .shopButton:hover{
 	background-position: 0;

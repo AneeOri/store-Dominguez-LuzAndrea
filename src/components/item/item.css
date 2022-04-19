@@ -33,12 +33,15 @@
     justify-content: center;
     align-items: center;
   }
+  .imagen h3{
+      margin-bottom: 5px;
+  }
   .capa {
     position: absolute;
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(87, 191, 243, 0.7);
+    background-color: rgba(83, 188, 240, 0.7);
     transition: all 500ms ease-out;
     opacity: 0;
     visibility: hidden;
@@ -47,4 +50,7 @@
   .figura:hover > .capa {
     opacity: 1;
     visibility: visible;
+  }
+  .figura:hover > .imagen {
+    transform: scale(1.1);
   }

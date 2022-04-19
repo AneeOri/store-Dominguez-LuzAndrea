@@ -17,24 +17,36 @@
     margin-right: 5vw;
 }
 .points p{
+    font-size: 1vw;
     margin-top: 5px;
+    font-family: sans-serif;
+    margin-top: .45vw;
 }
 .name{
     display: flex;
     flex-direction: row;
     margin-left: 1vw;
     background-color: rgb(222, 216, 216);
+    border-radius: .45vw;
 }
 .name p{
-    margin-top: 5px;
+    font-size: 1vw;
+    margin-top: .45vw;
 }
 .links{
     display: flex;
     flex-direction: row;
 }
 .links li{
+    font-size: 1vw;
     margin-right: 1vw;
-    margin-top: 5px;
+    margin-top:.45vw;
+    font-family: sans-serif;
+    list-style:none;
+}
+.links li:hover{
+    font-style: italic;
+    color: rgb(209, 117, 243);
 }
 .coin{
     margin-left: 5px;

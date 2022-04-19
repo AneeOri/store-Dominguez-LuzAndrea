@@ -13,7 +13,7 @@ export default function PricesFilter(){
     }
     return (
         <div>
-        <div>Filter by Price</div>
+        <div className='textFilter'>Filter by Price</div>
         <select className="select"
                 name="price"
                 value={filter.price} 

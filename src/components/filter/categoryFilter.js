@@ -20,7 +20,7 @@ export default function CategoryFilter(){
 
     return (
       <div>
-         <div>Filter by Category</div>
+         <div className='textFilter'>Filter by Category</div>
          <select className="select"
                  name="category"
                  value={filter.category} 
