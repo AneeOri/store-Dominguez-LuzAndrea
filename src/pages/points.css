@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.coinsContainer{
+    height: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+.coinsContainer h1{
+     position: absolute;
+     top:4vw;
+     font-family: monospace;
+     font-size: 2vw;
+}
+.coinsContainer h3{
+    position: absolute;
+    top:10vw;
+    font-family: monospace;
+    font-size: x-large;
+}
+.coinButtons{
+    position: absolute;
+    top:15vw;
+}
+.coinButtons button{
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+    height: 5vw;
+    width: 7vw;
+    margin-bottom: 2vw;
+    font-family: monospace;
+    font-size: 1.1vw;
+   background-color: rgba(81, 221, 249, 0.86);
+   color: rgb(107, 101, 101);
+   box-shadow: 5px 5px 7px 0px rgba(109, 104, 104, 0.73);
+   cursor: pointer;
+}
+.imgC{
+    height: 3vw;
+}
+.coinButtons button:hover{
+    background-color:rgba(107, 178, 193, 0.86); ;
+}

@@ -19,7 +19,7 @@
 .points p{
     font-size: 1vw;
     margin-top: 5px;
-    font-family: sans-serif;
+    font-family:monospace;
     margin-top: .45vw;
 }
 .name{
@@ -32,21 +32,24 @@
 .name p{
     font-size: 1vw;
     margin-top: .45vw;
+    font-family: monospace;
 }
 .links{
     display: flex;
     flex-direction: row;
 }
 .links li{
-    font-size: 1vw;
+    font-size: 1.2vw;
     margin-right: 1vw;
     margin-top:.45vw;
-    font-family: sans-serif;
+    font-family: monospace;
     list-style:none;
+    color: rgb(10, 210, 250);
+    text-decoration: underline;
 }
 .links li:hover{
     font-style: italic;
-    color: rgb(209, 117, 243);
+    color: rgb(54, 7, 72);
 }
 .coin{
     margin-left: 5px;
