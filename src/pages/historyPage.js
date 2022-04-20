@@ -2,6 +2,7 @@ import React, {useEffect, useState} from 'react';
 import ItemHistory from '../components/itemHistory/itemHistory';
 import { getHistory } from '../utils/api';
 import { API_URL, RESOURCES, headers } from "../utils/constants";
+import "./history.css";
 
 export default function HistoryPage() {
 
@@ -16,10 +17,10 @@ export default function HistoryPage() {
   const historyDataR = historyData.reverse();
 
   return (
-    <div>
+    <div className='histContainer'>
       <h1>Redeemed products</h1>
       <h2>History of your redeems</h2>
-      <div>
+      <div className='products2'>
         {historyDataR.map((product)=>(
             <ItemHistory {...product} key={product.createDate}/>
         ))

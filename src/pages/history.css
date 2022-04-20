@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.histContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.histContainer h1{
+    position: absolute;
+    top:6vw;
+    font-family: monospace;
+    font-size: 2vw;
+}
+.histContainer h2{
+    position: absolute;
+    top:10vw;
+    font-family: monospace;
+    font-size: x-large;
+}
+.products2{
+    position: absolute;
+    top:12vw;
+    display: flex;
+    flex-direction: column;
+}

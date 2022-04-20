@@ -1,5 +1,6 @@
 import React from "react";
 import "./modal.css";
+import buyWhite from "../../assets/icons/buy-white.svg";
 
 export default function Modal({ title, content, close }) {
   return (
@@ -9,11 +10,11 @@ export default function Modal({ title, content, close }) {
           &times;
         </div>
         <div className="modal-title">{title}</div>
-        <div className="modal-content">{content}</div>
+        <div className="modal-content">
+          {content}
+          <img src={buyWhite} alt="imagen de bolsa de compra" />
+        </div>
         <div className="modal-footer">
-          <button className="btn" onClick={() => close(false)}>
-           close
-          </button>
         </div>
       </div>
     </div>

@@ -38,7 +38,7 @@
    border: 1px solid linear-gradient(180deg, rgba(10, 212, 250, 0.86) 0%, rgba(37, 187, 241, 0.86) 100%);
    color:rgb(10, 186, 250);
    cursor: pointer;
-   font-size: x-large;
+   font-size: large;
    font-family:monospace;
 }
 .paginationBtns a:hover{
