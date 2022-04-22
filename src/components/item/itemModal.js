@@ -7,7 +7,7 @@ export default function Modal({ title, content, close }) {
     <div className="modal">
       <div className="modal-container">
         <div className="modal-close" onClick={() => close(false)}>
-          &times;
+          
         </div>
         <div className="modal-title">{title}</div>
         <div className="modal-content">
