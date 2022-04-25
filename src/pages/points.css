@@ -4,28 +4,22 @@
     box-sizing: border-box;
 }
 .coinsContainer{
+    margin-top: 50px;
     height: 50vw;
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
     position: relative;
 }
 .coinsContainer h1{
-     position: absolute;
-     top:4vw;
      font-family: monospace;
-     font-size: 2vw;
+     font-size: 40px;
+     margin: 10px;
 }
 .coinsContainer h3{
-    position: absolute;
-    top:10vw;
     font-family: monospace;
-    font-size: x-large;
-}
-.coinButtons{
-    position: absolute;
-    top:15vw;
+    font-size: 20px;
+    margin-top: 40px;
 }
 .coinButtons button{
     display: flex;
@@ -36,14 +30,17 @@
     width: 7vw;
     margin-bottom: 2vw;
     font-family: monospace;
-    font-size: 1.1vw;
+    font-size: 20px;
    background-color: rgba(81, 221, 249, 0.86);
    color: rgb(107, 101, 101);
    box-shadow: 5px 5px 7px 0px rgba(109, 104, 104, 0.73);
    cursor: pointer;
+   min-width: 100px;
+   min-height: 100px;
+   margin-top: 30px;
 }
 .imgC{
-    height: 3vw;
+    height: 40px;
 }
 .coinButtons button:hover{
     background-color:rgba(107, 178, 193, 0.86); ;

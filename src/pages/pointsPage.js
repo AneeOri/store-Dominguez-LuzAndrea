@@ -18,8 +18,10 @@ export default function PointsPage() {
 
   return (
     <div className='coinsContainer'>
-      <h1>Get More Coins</h1>
-      <h3>How many coins do you want to add?</h3>
+      <div>
+        <h1>Get More Coins</h1>
+        <h3>How many coins do you want to add?</h3>
+      </div>
       <div className='coinButtons'>
         <button onClick={()=>{postingPoints(1000)}}> 1000
            <img className='imgC' src={coin} alt="imagen de moneda" />

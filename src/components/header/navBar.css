@@ -10,6 +10,7 @@
     margin-right: 10px;
     margin-top: .5vw;
     margin-bottom: .5vw;
+    min-width: 300px;
 }
 .points{
     display: flex;
@@ -17,7 +18,8 @@
     margin-right: 5vw;
 }
 .points p{
-    font-size: 1vw;
+    min-width: 150px;
+    font-size: 20px;
     margin-top: 5px;
     font-family:monospace;
     margin-top: .45vw;
@@ -30,7 +32,8 @@
     border-radius: .45vw;
 }
 .name p{
-    font-size: 1vw;
+    min-width: 80px;
+    font-size: 20px;
     margin-top: .45vw;
     font-family: monospace;
 }
@@ -39,7 +42,7 @@
     flex-direction: row;
 }
 .links li{
-    font-size: 1.2vw;
+    font-size: 20px;
     margin-right: 1vw;
     margin-top:.45vw;
     font-family: monospace;
