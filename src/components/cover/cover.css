@@ -19,3 +19,13 @@
     font-size: 4vw;
     font-family: monospace;
 }
+@media screen and (max-width:600px) and (min-width:250px) {
+    .coverImage h1{
+        position: absolute;
+        top:2vw;
+        left:2vw;
+        color: rgb(74, 8, 80);
+        font-size: 25px;
+        font-family: monospace;
+    }
+}
