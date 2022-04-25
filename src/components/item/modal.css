@@ -20,7 +20,8 @@
     width: 100%;
     border-radius: 0.4rem;
     box-shadow: 0 1px 10px rgb(25, 91, 5);
-    min-height: 15vw;
+    min-height: 200px;
+    min-width: 300px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;

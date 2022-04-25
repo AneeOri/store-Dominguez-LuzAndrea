@@ -4,25 +4,23 @@
     box-sizing: border-box;
 }
 .histContainer{
+    margin-top: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 .histContainer h1{
-    position: absolute;
-    top:6vw;
+    margin-top: 30px;
     font-family: monospace;
-    font-size: 2vw;
+    font-size: 40px;
 }
 .histContainer h2{
-    position: absolute;
-    top:10vw;
+    margin-top: 30px;
     font-family: monospace;
-    font-size: x-large;
+    font-size: 20px;
 }
 .products2{
-    position: absolute;
-    top:12vw;
+    margin-top: 30px;
     display: flex;
     flex-direction: column;
 }
