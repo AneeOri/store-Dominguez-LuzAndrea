@@ -17,7 +17,7 @@ export default function NavBar (){
                      <img className="coin" src={coin} alt="imagen de moneda" />
                   </div>
              </div>  
-             <div >
+             <div>
                   <nav>
                     <ul className='links'>
                       <Link to="/points">
