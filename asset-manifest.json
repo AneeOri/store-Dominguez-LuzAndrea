@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/store-Dominguez-LuzAndrea/static/css/main.35be6123.chunk.css",
-    "main.js": "/store-Dominguez-LuzAndrea/static/js/main.2aacf153.chunk.js",
-    "main.js.map": "/store-Dominguez-LuzAndrea/static/js/main.2aacf153.chunk.js.map",
+    "main.css": "/store-Dominguez-LuzAndrea/static/css/main.ff50bbad.chunk.css",
+    "main.js": "/store-Dominguez-LuzAndrea/static/js/main.bc0352cb.chunk.js",
+    "main.js.map": "/store-Dominguez-LuzAndrea/static/js/main.bc0352cb.chunk.js.map",
     "runtime-main.js": "/store-Dominguez-LuzAndrea/static/js/runtime-main.c40651e1.js",
     "runtime-main.js.map": "/store-Dominguez-LuzAndrea/static/js/runtime-main.c40651e1.js.map",
     "static/js/2.9db74800.chunk.js": "/store-Dominguez-LuzAndrea/static/js/2.9db74800.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.29216021.chunk.js": "/store-Dominguez-LuzAndrea/static/js/3.29216021.chunk.js",
     "static/js/3.29216021.chunk.js.map": "/store-Dominguez-LuzAndrea/static/js/3.29216021.chunk.js.map",
     "index.html": "/store-Dominguez-LuzAndrea/index.html",
-    "static/css/main.35be6123.chunk.css.map": "/store-Dominguez-LuzAndrea/static/css/main.35be6123.chunk.css.map",
+    "static/css/main.ff50bbad.chunk.css.map": "/store-Dominguez-LuzAndrea/static/css/main.ff50bbad.chunk.css.map",
     "static/js/2.9db74800.chunk.js.LICENSE.txt": "/store-Dominguez-LuzAndrea/static/js/2.9db74800.chunk.js.LICENSE.txt",
     "static/media/aerolab-logo.0a8fb170.svg": "/store-Dominguez-LuzAndrea/static/media/aerolab-logo.0a8fb170.svg",
     "static/media/buy-blue.c5c4f01c.svg": "/store-Dominguez-LuzAndrea/static/media/buy-blue.c5c4f01c.svg",
@@ -21,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.c40651e1.js",
     "static/js/2.9db74800.chunk.js",
-    "static/css/main.35be6123.chunk.css",
-    "static/js/main.2aacf153.chunk.js"
+    "static/css/main.ff50bbad.chunk.css",
+    "static/js/main.bc0352cb.chunk.js"
   ]
 }
