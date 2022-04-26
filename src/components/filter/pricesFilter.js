@@ -9,7 +9,6 @@ export default function PricesFilter(){
          let {name,value} = e.target;
          const options = {...filter,[name]:value};
          setFilter(options);
-        // console.log(options);
     }
     return (
         <div>
