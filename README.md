@@ -3,7 +3,7 @@
 
 ONLINE STORE WHERE YOU CAN EXCHANGE PRODUCTS WITH POINTS, SEE THE HISTORY OF PRODUCTS AND GET MORE
  
- [DEMO LINK HERE](https://aneeori.github.io/store-Dominguez-LuzAndrea/#/).
+ [DEMO LINK HERE](https://aneeori.github.io/store-Dominguez-LuzAndrea/).
 
 
 # Getting Started with Create React App
