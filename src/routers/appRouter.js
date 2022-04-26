@@ -7,9 +7,9 @@ import HistoryPage from "../pages/historyPage";
 export default function AppRouter() {
   return (
     <Routes>
-        <Route exact path="/points" element = {<PointsPage/>}/>
-        <Route exact path="/history" element = {<HistoryPage/>}/>
-        <Route exact path="/" element = {<ProductsPage/>}/>
+        <Route  exact path="/" element = {<ProductsPage/>}/>
+        <Route  path="/points" element = {<PointsPage/>}/>
+        <Route  path="/history" element = {<HistoryPage/>}/>
     </Routes>
   )
 }
