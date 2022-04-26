@@ -1,6 +1,14 @@
+
+#AEROLAB CHALLENGE
+
+ONLINE STORE WHERE YOU CAN EXCHANGE PRODUCTS WITH POINTS, SEE THE HISTORY OF PRODUCTS AND GET MORE
+ 
+ [DEMO LINK HERE](https://github.com/facebook/create-react-app).
+
+
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://aneeori.github.io/store-Dominguez-LuzAndrea/).
 
 ## Available Scripts
 
