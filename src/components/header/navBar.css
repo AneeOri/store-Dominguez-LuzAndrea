@@ -15,7 +15,7 @@
 .points{
     display: flex;
     flex-direction: row;
-    margin-right: 5vw;
+    margin-right: 15px;
 }
 .points p{
     min-width: 150px;
@@ -43,7 +43,7 @@
 }
 .links li{
     font-size: 20px;
-    margin-right: 1vw;
+    margin-right: 15px;
     margin-top:.45vw;
     font-family: monospace;
     list-style:none;
