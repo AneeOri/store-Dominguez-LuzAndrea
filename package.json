@@ -1,5 +1,6 @@
 {
   "name": "store-dominguez-luzandrea",
+  "homepage": "https://aneeori.github.io/store-Dominguez-LuzAndrea/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -41,6 +42,5 @@
   },
   "devDependencies": {
     "gh-pages": "^3.2.3"
-  },
- "homepage": "https://aneeori.github.io/store-Dominguez-LuzAndrea/"
+  }
 }

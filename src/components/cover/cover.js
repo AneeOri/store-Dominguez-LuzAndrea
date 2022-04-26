@@ -5,7 +5,7 @@ import "./cover.css";
 export default function Cover (){
     return(
         <div className="coverImage">
-             <img src={coverImage} alt="cover image" /> 
+             <img src={coverImage} alt="cover" /> 
              <h1>Rewards Store</h1>
         </div>
     );
